@@ -1,0 +1,19 @@
+{
+  "name": "congressional-districts",
+  "version": "1.0.0",
+  "description": "Javascript helper methods for congressional districts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwbrown/congressional-districts.git"
+  },
+  "author": "Philip Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwbrown/congressional-districts/issues"
+  },
+  "homepage": "https://github.com/pwbrown/congressional-districts#readme"
+}
