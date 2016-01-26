@@ -1,4 +1,5 @@
 var data = require('./data/data').data;
+var states = require('./data/states').states;
 
 var getDistricts = function(zip){
 	//convert to string and trim spaces
@@ -21,5 +22,14 @@ var confDist = function(zip, district){  //method to confirm if zip code is in a
 		return true;
 }
 
+var getNumOfDistricts = function(state){
+	state = state.trim().toLowerCase().replace(/ /g,'_');
+	if(!states[state])
+		return -1;
+	else
+		return states[state];
+}
+
+exports.getNumOfDistricts = getNumOfDistricts;
 exports.getDistricts = getDistricts;
 exports.confirm = confDist;
