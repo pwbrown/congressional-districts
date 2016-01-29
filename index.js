@@ -12,7 +12,7 @@ var getDistricts = function(zip){
 }
 
 var confDist = function(zip, district){  //method to confirm if zip code is in a specific district
-	zip = zip.toString().trim();
+	zip = zip.toString().trim().substring(0,5);
 	district = district.toString().trim().parseInt().toString();
 	if(!data[zip])
 		return false;
