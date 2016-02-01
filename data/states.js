@@ -36,5 +36,10 @@ exports.states = {
 "rhode_island": 2,
 "south_carolina": 7,
 "tennessee": 9,
-"texas": 48
+"texas": 36,
+"wisconsin": 8,
+"virginia": 11,
+"washington": 10,
+"west virginia": 3,
+"utah": 4
 };
